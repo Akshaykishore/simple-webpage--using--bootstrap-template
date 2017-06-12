@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>About Me</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  .bg-1 { 
+       background-color: #1abc9c; 
+      color: #ffffff;
+  }
+ .bg-2 { 
+            background-color: #474e5d;  
+      color: #ffffff;
+  }
+  .bg-3 { 
+       background-color: #474e5d;  
+      color: #ffffff;
+  }
+.rotateimg180 {
+  -webkit-transform:rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Akshay</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Myself</a></li>
+        <li><a href="#ref1">Who am i</a></li>
+        <li><a href="#ref2">catch me in</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="bg-1">
+  <div class="container text-center">
+    <h3>HELLO FOLKS!!!</h3>
+
+    <img src="images5.jpg" alt="myself" width="200" height="200" class="img-circle" >
+
+    <h3>I'm a cool techster!!!</h3>
+  </div>
+</div>
+<div class="container-fluid bg-2 text-center">
+  
+  <h3 class="margin" id="ref2">Wanna know me?</h3><br>
+  <p>I wanna be a web & mobile developer with side by side engineering  </p>
+
+  <p>have idea for my own product though in need for experience </p>
+
+ <p> Famliar with javascript,nodejs and learning react framework<br>
+     have been an intern in android studio and eclipse.</p>
+
+<p>As a proof we deployed an app named <b>Paranthaman Panchangam</b> <br>I&#39;m exploring other
+corners of Computer Science.</p>
+<p>to become an entrepruener,<br><b>know the things and deploy people to make it as a complete work product</b></p>
+
+
+<p>reach me at <code>akshayvicky96 [at] gmail [dot] com</code></p>
+
+</div>
+
+<div class="container-fluid bg-3 text-center">
+  
+
+  <h3 class="margin" id="ref2">catch me if u want?</h3><br>
+  <a href="https://github.com/Akshaykishore"><img src="images.svg" class="margin" style="width:10%" alt="GitHub"></a>
+</div>
+<div class="container-fluid bg-3 text-center">
+  <a href="https://linkedin.com/akshay kishore"><img src="images1.png" class="margin" style="width:10%" alt="GitHub"></a>
+</div>
+
+</body>
+</html>
